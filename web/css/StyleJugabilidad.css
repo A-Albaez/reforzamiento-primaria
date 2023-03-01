@@ -1,0 +1,337 @@
+header{
+    background-color:#3F6589;
+    position: sticky;
+    height: 105px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+ }
+ .logo img{
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin-top: 15px;
+}
+
+.barra nav{
+  position: absolute;
+  float: left;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.barra ul li{
+  font-family: Arial, sans-serif;
+
+}
+
+.barra nav ul li{
+  list-style: none;
+  margin-left: 40px;
+  float:left;
+  margin-left: 40px;
+  position: relative;
+}
+
+.barra nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  pointer-events: visible;
+}
+.barra nav ul li a:hover{
+  color:gray;
+}
+.Buscar{
+  position: absolute;
+  margin-top: 36px;
+  margin-left: 1120px;
+}
+.Buscar input{
+  width: 190px;
+  height: 20px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: #000;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.IconoUser nav{
+  position: absolute;
+  right: 0px;
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.IconoUser nav ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 15px;
+
+}
+.CerrarYnombre nav{
+  position: absolute;
+  right: 0px;
+  float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+  margin-right: 40px;
+  margin-top: -10px;
+ }
+.CerrarYnombre nav ul li{
+list-style: none;
+display: inline;
+padding-left: 15px;
+
+}
+
+.CerrarYnombre nav ul li a{
+text-decoration: none;
+color:white;
+font-weight: bold;
+margin-bottom: 5px;
+border-radius: 15px;
+pointer-events: visible;
+}
+
+
+
+
+
+select {
+-webkit-appearance:none;
+-moz-appearance:none;
+-ms-appearance:none;
+appearance:none;
+outline:0;
+box-shadow:none;
+border:0!important;
+/* background: #0b6957; */
+background: #0b4a6e;
+background-image: none;
+flex: 1;
+padding: 0 .5em;
+color:#fff;
+cursor:pointer;
+font-size: 1em;
+font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+display: none;
+}
+.select {
+margin-left: 3%;
+position: relative;
+display: flex;
+width: 18em;
+height: 3em;
+line-height: 3;
+background: #665e5c;
+overflow: hidden;
+border-radius: .25em;
+}
+.select::after {
+content: '\25BC';
+position: absolute;
+top: 0;
+right: 0;
+padding: 0 1em;
+background: #2b2e2e;
+cursor:pointer;
+pointer-events:none;
+transition:.25s all ease;
+}
+.select:hover::after {
+color: #23b499;
+}
+
+
+.select2 {
+margin-left: 680px;
+position: relative;
+display: flex;
+width: 12em;
+height: 2.4em;
+line-height: 3;
+background: #665e5c;
+overflow: hidden;
+border-radius: .25em;
+}
+.select2::after {
+content: '\25BC';
+position: absolute;
+top: 0;
+right: 0;
+padding: 0 1em;
+background: #2b2e2e;
+cursor:pointer;
+pointer-events:none;
+transition:.25s all ease;
+}
+.select2:hover::after {
+color: #23b499;
+}
+ .cajaCon{
+   background-color: white;
+  height: 640px;
+  padding: 0;
+ }
+
+
+ body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*background-image: url(/Imagenes/fondotem.jfif);*/
+  background-image: url(Imagenes/fondotem.jfif); 
+  background-color: rgb(153,102,153);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+ .cuerpo{
+  flex: 1;
+ }
+.cajaJuego{
+  margin-top: 50px;
+  text-align: center;
+  font-family:'Montserrat',sans-serif;
+}
+
+.col-3{
+  width:490px;
+    height: 260px;
+    background:#e6e6e6;
+    border-radius: 15px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(45vh - 220px) auto;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position: static;
+}
+
+.CajaPregunta{
+    width:490px;
+    height: 260px;
+    background:#e6e6e6;
+    border-radius: 15px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(45vh - 220px) auto;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position: static;
+}
+
+
+
+#ImgPregunta{
+  width: 250px;
+}
+.prueba{
+  text-align: center;
+}
+
+/*
+#BtSiguiente{
+  margin-top: 20px;
+  margin-left: 150px;
+  background-color: #00af06; 
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}*/
+
+#BtSiguiente{
+  background-color: #00af06; /* Green */
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 28px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+#BtSiguiente:hover::after {
+  color: #23b499;
+}
+
+#BtAnterior{
+  background-color: #00af06; /* Green */
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+#BtAnterior:hover::after {
+  color: #23b499;
+}
+
+
+
+   
+   footer{
+    margin-top: 15px;
+    background-color:#3F6589;
+    position: sticky;
+    height: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .redes nav{
+    position: absolute;
+    right: 0px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 18px;
+  }
+  
+  .redes nav ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+  
+  }
+  .ig{
+    height: 35px;
+  }
+  .fb{
+    height: 35px;
+  }
+  footer h5{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  footer h4{
+    text-align: right;
+    margin-right: 190px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+.logoFt{
+  height: 45px;
+  margin-right: 10px;
+  }
